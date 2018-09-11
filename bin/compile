@@ -7,7 +7,7 @@ TMP_PATH="$1/tmp"
 
 mkdir -p $BIN_PATH $TMP_PATH
 
-WKHTMLTOPDF_URL="https://github.com/Muscul/heroku-buildpack-wkhtmltopdf/raw/binary/wkhtmltopdf"
+WKHTMLTOPDF_URL="https://github.com/Muscul/heroku-buildpack-wkhtmltopdf/raw/binary-0.12.5/wkhtmltopdf"
 #WKHTMLTOPDF_PKG="$TMP_PATH/html2text.deb"
 WKHTMLTOPDF_PATH="$TMP_PATH/wkhtmltopdf"
 #WKHTMLTOPDF_BINARIES="$HTML_2_TEXT_PATH/usr/bin"
